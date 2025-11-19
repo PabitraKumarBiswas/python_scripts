@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 # Define file paths
-excel_path = '/Users/pabitra/Documents/RIMES/Bamis Data Share.xlsx'
-output_folder = '/Users/pabitra/Documents/RIMES/Python Codes /extracted info'
+excel_path = '...excel file path...'
+output_folder = '...path to save ectracted data...'
 output_file = os.path.join(output_folder, 'Onion_Disease_Info.xlsx')
 
 # Ensure the output folder exists
